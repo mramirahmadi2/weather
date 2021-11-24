@@ -1,0 +1,67 @@
+$title-color:$primery-text-color;
+$description-color:$secondry-text-color;
+.cads__wrapper{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  @media screen and (min-width:768px) {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+  @media screen and (min-width:1200px) {
+    display: flex;
+    flex-direction:row;
+  }
+
+}
+
+
+
+
+.card{
+  padding:3.2rem;
+  border-radius: $border-radius*2;
+margin:1rem;
+  box-sizing: border-box;
+
+
+
+
+
+  background-color: #68b3e9;
+  @media screen and (min-width:768px) {
+
+  }
+  @media screen and (min-width:1200px){
+    width:calc(20% - 40px);
+
+  }
+
+  &--shadow{
+    @extend .card;
+    box-shadow: 0 5px 10px 0 rgb(#000, 0.1);
+
+  }
+
+  &__icon{
+    margin: 2rem auto;
+    weight:7rem;
+
+  }
+  &__title{
+
+    color:$title-color;
+    font-size:2.4rem;
+    font-weight:bolder;
+
+  }
+  &__description{
+    color:$description-color;
+    font-size:1.8rem;
+
+  }
+
+}

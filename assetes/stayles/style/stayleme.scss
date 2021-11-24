@@ -1,0 +1,74 @@
+
+@import "colors";
+@import "size";
+
+@import "search";
+
+
+@import "text";
+@import "margin";
+@import "card";
+@import "city-temprerature";
+$container-padding:$padding;
+$sun-size : 20rem;
+$temprerature-current-degree-color: $primery-text-color;
+html{
+  font-size: 62.5%;
+  font-family: Roboto light;
+
+}
+h1,h2,h3,h4,h5,h6,strong,b{
+  font-family: roboto bold;
+}
+ul{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+figure{
+  margin:0;
+}
+img{
+
+  height: auto;
+}
+.sun{
+  margin-left: auto;
+  margin-right: auto;
+  width:$sun-size;
+
+
+}
+
+.continer{
+  background: rgb(29,51,166);
+  background: -moz-radial-gradient(circle, rgba(29,51,166,1) 8%, rgba(61,88,204,1) 44%, rgba(1,6,85,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(29,51,166,1) 8%, rgba(61,88,204,1) 44%, rgba(1,6,85,1) 100%);
+  background: radial-gradient(circle, rgba(29,51,166,1) 8%, rgba(61,88,204,1) 44%, rgba(1,6,85,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d33a6",endColorstr="#010655",GradientType=1);
+  min-height: 100vh;
+
+
+
+}
+.wrapper{
+  max-width:1400px;
+  margin:0 auto;
+  padding: $container-padding ;
+
+}
+input{
+  font-size: 1.8rem;
+}
+.temprerature{
+  display: flex;
+  flex-direction: column-reverse;
+  @media screen and (min-width:768px){
+    flex-direction: row;
+  }
+  &__corrent-degree{
+    font-size: 3.2rem;
+    color:$temprerature-current-degree-color;
+
+  }
+}

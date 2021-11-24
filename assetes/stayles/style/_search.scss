@@ -1,0 +1,27 @@
+$input-background-color: #87a4d5;
+$input-border-color-active:#97baec;
+$input-border-radius: $border-radius;
+$input-color: #fff;
+$input-height: 5rem;
+$input-padding-horizontal:0 $padding;
+
+.search {
+  &__input {
+    border:0.2rem solid transparent;
+    background-color: $input-background-color;
+    box-sizing: border-box;
+    border-radius: $input-border-radius;
+    height: $input-height;
+    outline: none;
+    padding: $input-padding-horizontal;
+    color:$input-color;
+
+    width: 100%;
+    &:focus{
+      border-color:$input-border-color-active ;
+    }
+
+
+  }
+
+}

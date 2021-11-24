@@ -1,0 +1,391 @@
+.search__input {
+  border: 0.2rem solid transparent;
+  background-color: #87a4d5;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+  height: 5rem;
+  outline: none;
+  padding: 0 1.6rem;
+  color: #fff;
+  width: 100%;
+}
+.search__input:focus {
+  border-color: #97baec;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.margin-8px {
+  margin: 8pxpx;
+}
+.margin-top-8px {
+  margin: 8pxpx;
+}
+.margin-bottom-8px {
+  margin-bottom: 8pxpx;
+}
+.margin-left-8px {
+  margin-left: 8pxpx;
+}
+.margin-right-8px {
+  margin-right: 8pxpx;
+}
+.margin-horizable-8px {
+  margin-left: 8pxpx;
+  margin-right: 8pxpx;
+}
+.margin-vertical-8px {
+  margin-bottom: 8pxpx;
+  margin-top: 8pxpx;
+}
+.margin-16px {
+  margin: 16pxpx;
+}
+.margin-top-16px {
+  margin: 16pxpx;
+}
+.margin-bottom-16px {
+  margin-bottom: 16pxpx;
+}
+.margin-left-16px {
+  margin-left: 16pxpx;
+}
+.margin-right-16px {
+  margin-right: 16pxpx;
+}
+.margin-horizable-16px {
+  margin-left: 16pxpx;
+  margin-right: 16pxpx;
+}
+.margin-vertical-16px {
+  margin-bottom: 16pxpx;
+  margin-top: 16pxpx;
+}
+.margin-24px {
+  margin: 24pxpx;
+}
+.margin-top-24px {
+  margin: 24pxpx;
+}
+.margin-bottom-24px {
+  margin-bottom: 24pxpx;
+}
+.margin-left-24px {
+  margin-left: 24pxpx;
+}
+.margin-right-24px {
+  margin-right: 24pxpx;
+}
+.margin-horizable-24px {
+  margin-left: 24pxpx;
+  margin-right: 24pxpx;
+}
+.margin-vertical-24px {
+  margin-bottom: 24pxpx;
+  margin-top: 24pxpx;
+}
+.margin-32px {
+  margin: 32pxpx;
+}
+.margin-top-32px {
+  margin: 32pxpx;
+}
+.margin-bottom-32px {
+  margin-bottom: 32pxpx;
+}
+.margin-left-32px {
+  margin-left: 32pxpx;
+}
+.margin-right-32px {
+  margin-right: 32pxpx;
+}
+.margin-horizable-32px {
+  margin-left: 32pxpx;
+  margin-right: 32pxpx;
+}
+.margin-vertical-32px {
+  margin-bottom: 32pxpx;
+  margin-top: 32pxpx;
+}
+.margin-40px {
+  margin: 40pxpx;
+}
+.margin-top-40px {
+  margin: 40pxpx;
+}
+.margin-bottom-40px {
+  margin-bottom: 40pxpx;
+}
+.margin-left-40px {
+  margin-left: 40pxpx;
+}
+.margin-right-40px {
+  margin-right: 40pxpx;
+}
+.margin-horizable-40px {
+  margin-left: 40pxpx;
+  margin-right: 40pxpx;
+}
+.margin-vertical-40px {
+  margin-bottom: 40pxpx;
+  margin-top: 40pxpx;
+}
+.margin-48px {
+  margin: 48pxpx;
+}
+.margin-top-48px {
+  margin: 48pxpx;
+}
+.margin-bottom-48px {
+  margin-bottom: 48pxpx;
+}
+.margin-left-48px {
+  margin-left: 48pxpx;
+}
+.margin-right-48px {
+  margin-right: 48pxpx;
+}
+.margin-horizable-48px {
+  margin-left: 48pxpx;
+  margin-right: 48pxpx;
+}
+.margin-vertical-48px {
+  margin-bottom: 48pxpx;
+  margin-top: 48pxpx;
+}
+.margin-56px {
+  margin: 56pxpx;
+}
+.margin-top-56px {
+  margin: 56pxpx;
+}
+.margin-bottom-56px {
+  margin-bottom: 56pxpx;
+}
+.margin-left-56px {
+  margin-left: 56pxpx;
+}
+.margin-right-56px {
+  margin-right: 56pxpx;
+}
+.margin-horizable-56px {
+  margin-left: 56pxpx;
+  margin-right: 56pxpx;
+}
+.margin-vertical-56px {
+  margin-bottom: 56pxpx;
+  margin-top: 56pxpx;
+}
+.margin-64px {
+  margin: 64pxpx;
+}
+.margin-top-64px {
+  margin: 64pxpx;
+}
+.margin-bottom-64px {
+  margin-bottom: 64pxpx;
+}
+.margin-left-64px {
+  margin-left: 64pxpx;
+}
+.margin-right-64px {
+  margin-right: 64pxpx;
+}
+.margin-horizable-64px {
+  margin-left: 64pxpx;
+  margin-right: 64pxpx;
+}
+.margin-vertical-64px {
+  margin-bottom: 64pxpx;
+  margin-top: 64pxpx;
+}
+.margin-72px {
+  margin: 72pxpx;
+}
+.margin-top-72px {
+  margin: 72pxpx;
+}
+.margin-bottom-72px {
+  margin-bottom: 72pxpx;
+}
+.margin-left-72px {
+  margin-left: 72pxpx;
+}
+.margin-right-72px {
+  margin-right: 72pxpx;
+}
+.margin-horizable-72px {
+  margin-left: 72pxpx;
+  margin-right: 72pxpx;
+}
+.margin-vertical-72px {
+  margin-bottom: 72pxpx;
+  margin-top: 72pxpx;
+}
+.margin-80px {
+  margin: 80pxpx;
+}
+.margin-top-80px {
+  margin: 80pxpx;
+}
+.margin-bottom-80px {
+  margin-bottom: 80pxpx;
+}
+.margin-left-80px {
+  margin-left: 80pxpx;
+}
+.margin-right-80px {
+  margin-right: 80pxpx;
+}
+.margin-horizable-80px {
+  margin-left: 80pxpx;
+  margin-right: 80pxpx;
+}
+.margin-vertical-80px {
+  margin-bottom: 80pxpx;
+  margin-top: 80pxpx;
+}
+
+.cads__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media screen and (min-width: 768px) {
+  .cads__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cads__wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.card, .card--shadow {
+  padding: 3.2rem;
+  border-radius: 1.6rem;
+  margin: 1rem;
+  box-sizing: border-box;
+  background-color: #68b3e9;
+}
+@media screen and (min-width: 1200px) {
+  .card, .card--shadow {
+    width: calc(20% - 40px);
+  }
+}
+.card--shadow {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.card__icon {
+  margin: 2rem auto;
+  weight: 7rem;
+}
+.card__title {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: bolder;
+}
+.card__description {
+  color: #e6e6e6;
+  font-size: 1.8rem;
+}
+
+.city-temprerature__title {
+  color: #fff;
+  font-size: 3.2rem;
+  margin-top: 0;
+}
+.city-temprerature__corrent-day {
+  color: #e6e6e6;
+  font-size: 2.4rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+}
+.info__icon {
+  white: 2.4rem;
+}
+.info__description {
+  font-size: 1.8rem;
+  color: #e6e6e6;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Roboto light;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-family: roboto bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  height: auto;
+}
+
+.sun {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+}
+
+.continer {
+  background: #1d33a6;
+  background: -moz-radial-gradient(circle, #1d33a6 8%, #3d58cc 44%, #010655 100%);
+  background: -webkit-radial-gradient(circle, #1d33a6 8%, #3d58cc 44%, #010655 100%);
+  background: radial-gradient(circle, #1d33a6 8%, #3d58cc 44%, #010655 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d33a6",endColorstr="#010655",GradientType=1);
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.6rem;
+}
+
+input {
+  font-size: 1.8rem;
+}
+
+.temprerature {
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media screen and (min-width: 768px) {
+  .temprerature {
+    flex-direction: row;
+  }
+}
+.temprerature__corrent-degree {
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+/*# sourceMappingURL=stayleme.css.map */
