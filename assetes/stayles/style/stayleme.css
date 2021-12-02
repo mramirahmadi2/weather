@@ -291,7 +291,7 @@
 }
 .card__icon {
   margin: 2rem auto;
-  weight: 7rem;
+  width: 7rem;
 }
 .card__title {
   color: #fff;
